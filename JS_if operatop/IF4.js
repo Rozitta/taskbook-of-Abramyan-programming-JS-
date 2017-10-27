@@ -8,7 +8,7 @@ var number2 = +prompt('Введите второе число');
 var number3 = +prompt('Введите третье число');
 
 if ((number1 > 0) && (number2 > 0) && (number3 > 0)){
-    alert( "Колличество положительных числе 3");
+    alert( "Колличество положительных чисел 3");
 }else if (((number1 > 0) && (number2 > 0)) || ((number1 > 0) && (number3 > 0)) || ((number2 > 0) && (number3 > 0))){
     alert( "Колличество положительных числе 2");
 }else if ((number1 > 0) || (number2 > 0) || (number3 > 0)){
@@ -17,7 +17,7 @@ if ((number1 > 0) && (number2 > 0) && (number3 > 0)){
     alert( "Колличество положительных чисел 0");
 }
 
-// 2 способ ( циклы,  массивы, if)
+// // 2 способ ( циклы,  массивы, if)
 
 var numbers =[],
 sum = 0;
